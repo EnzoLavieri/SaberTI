@@ -1,0 +1,54 @@
+object Form1: TForm1
+  Left = 1227
+  Height = 321
+  Top = 199
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 321
+  ClientWidth = 320
+  LCLVersion = '3.8.0.0'
+  object ButtonContar: TButton
+    Left = 63
+    Height = 25
+    Top = 64
+    Width = 146
+    Caption = 'Contar'
+    TabOrder = 0
+    OnClick = ButtonContarClick
+  end
+  object MemoContagem: TMemo
+    Left = 64
+    Height = 138
+    Top = 96
+    Width = 145
+    TabOrder = 1
+  end
+  object EditNum1: TEdit
+    Left = 64
+    Height = 23
+    Top = 33
+    Width = 64
+    TabOrder = 2
+  end
+  object EditNum2: TEdit
+    Left = 136
+    Height = 23
+    Top = 33
+    Width = 73
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 64
+    Height = 15
+    Top = 16
+    Width = 17
+    Caption = 'De:'
+  end
+  object Label2: TLabel
+    Left = 140
+    Height = 15
+    Top = 20
+    Width = 21
+    Caption = 'Até:'
+  end
+end

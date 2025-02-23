@@ -1,0 +1,88 @@
+object Form1: TForm1
+  Left = 1242
+  Height = 385
+  Top = 130
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 385
+  ClientWidth = 320
+  LCLVersion = '3.8.0.0'
+  object btnCalcMedia: TButton
+    Left = 32
+    Height = 25
+    Top = 160
+    Width = 90
+    Caption = 'Calcular media'
+    TabOrder = 0
+    OnClick = btnCalcMediaClick
+  end
+  object edtNotaBim1: TEdit
+    Left = 152
+    Height = 23
+    Top = 40
+    Width = 80
+    TabOrder = 1
+  end
+  object edtNotaBim2: TEdit
+    Left = 152
+    Height = 23
+    Top = 69
+    Width = 80
+    TabOrder = 2
+  end
+  object edtNotaBim3: TEdit
+    Left = 152
+    Height = 23
+    Top = 96
+    Width = 80
+    TabOrder = 3
+  end
+  object edtNotaBim4: TEdit
+    Left = 152
+    Height = 23
+    Top = 124
+    Width = 80
+    TabOrder = 4
+  end
+  object lblMediaBimTotal: TLabel
+    Left = 208
+    Height = 1
+    Top = 165
+    Width = 1
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 15
+    Top = 47
+    Width = 136
+    Caption = ' Media primeiro bimestre:'
+  end
+  object Label2: TLabel
+    Left = 7
+    Height = 15
+    Top = 76
+    Width = 137
+    Caption = ' Media segundo bimestre:'
+  end
+  object Label3: TLabel
+    Left = 13
+    Height = 15
+    Top = 103
+    Width = 131
+    Caption = ' Media terceiro bimestre:'
+  end
+  object Label4: TLabel
+    Left = 18
+    Height = 15
+    Top = 131
+    Width = 126
+    Caption = ' Media quarto bimestre:'
+  end
+  object Label5: TLabel
+    Left = 136
+    Height = 15
+    Top = 165
+    Width = 63
+    Caption = 'Media total:'
+  end
+end

@@ -1,0 +1,45 @@
+object Form1: TForm1
+  Left = 1227
+  Height = 321
+  Top = 199
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 321
+  ClientWidth = 320
+  LCLVersion = '3.8.0.0'
+  object ButtonContar: TButton
+    Left = 88
+    Height = 25
+    Top = 64
+    Width = 83
+    Caption = 'ButtonContar'
+    TabOrder = 0
+    OnClick = ButtonContarClick
+  end
+  object MemoContagem: TMemo
+    Left = 64
+    Height = 138
+    Top = 96
+    Width = 145
+    Lines.Strings = (
+      'MemoContagem'
+    )
+    TabOrder = 1
+  end
+  object EditNum1: TEdit
+    Left = 64
+    Height = 23
+    Top = 33
+    Width = 64
+    TabOrder = 2
+    Text = 'EditNum1'
+  end
+  object EditNum2: TEdit
+    Left = 136
+    Height = 23
+    Top = 33
+    Width = 73
+    TabOrder = 3
+    Text = 'EditNum2'
+  end
+end

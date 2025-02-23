@@ -1,0 +1,68 @@
+object Form1: TForm1
+  Left = 1201
+  Height = 240
+  Top = 198
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '3.8.0.0'
+  object Button1: TButton
+    Left = 232
+    Height = 49
+    Top = 80
+    Width = 75
+    Caption = 'Calcular'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object edtCustoFabrica: TEdit
+    Left = 152
+    Height = 23
+    Top = 56
+    Width = 155
+    TabOrder = 1
+  end
+  object lblCustoConsumidor: TLabel
+    Left = 69
+    Height = 15
+    Top = 152
+    Width = 119
+    Caption = 'Custo ao Consumidor:'
+  end
+  object custoFabrica: TLabel
+    Left = 51
+    Height = 15
+    Top = 64
+    Width = 91
+    Caption = 'Custo de Fábrica:'
+  end
+  object Label1: TLabel
+    Left = 69
+    Height = 15
+    Top = 112
+    Width = 73
+    Caption = '% de Imposto'
+  end
+  object Label2: TLabel
+    Left = 50
+    Height = 15
+    Top = 88
+    Width = 95
+    Caption = '% do Distribuidor:'
+  end
+  object edtPctDistrib: TEdit
+    Left = 152
+    Height = 23
+    Top = 80
+    Width = 80
+    TabOrder = 2
+  end
+  object edtPctImposto: TEdit
+    Left = 152
+    Height = 23
+    Top = 104
+    Width = 80
+    TabOrder = 3
+  end
+end
