@@ -1,0 +1,70 @@
+object cadEsqSenhaf: TcadEsqSenhaf
+  Left = 659
+  Height = 548
+  Top = 128
+  Width = 717
+  Caption = 'Cadastrar nova senha'
+  ClientHeight = 548
+  ClientWidth = 717
+  LCLVersion = '3.8.0.0'
+  object edtEmail: TEdit
+    Left = 184
+    Height = 23
+    Top = 104
+    Width = 192
+    TabOrder = 0
+  end
+  object edtSenhaNva: TEdit
+    Left = 184
+    Height = 23
+    Top = 152
+    Width = 192
+    TabOrder = 1
+  end
+  object edtConfirmar: TEdit
+    Left = 184
+    Height = 23
+    Top = 200
+    Width = 192
+    TabOrder = 2
+  end
+  object btnEntrar: TButton
+    Left = 184
+    Height = 25
+    Top = 232
+    Width = 88
+    Caption = 'Entrar'
+    TabOrder = 3
+    OnClick = btnEntrarClick
+  end
+  object btnCancelar: TButton
+    Left = 288
+    Height = 25
+    Top = 232
+    Width = 88
+    Caption = 'Cancelar'
+    TabOrder = 4
+    OnClick = btnCancelarClick
+  end
+  object Label1: TLabel
+    Left = 184
+    Height = 15
+    Top = 88
+    Width = 32
+    Caption = 'Email:'
+  end
+  object Label2: TLabel
+    Left = 184
+    Height = 15
+    Top = 135
+    Width = 64
+    Caption = 'Senha nova:'
+  end
+  object Label3: TLabel
+    Left = 184
+    Height = 15
+    Top = 184
+    Width = 120
+    Caption = 'Confirmar senha nova:'
+  end
+end
