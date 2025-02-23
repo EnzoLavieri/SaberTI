@@ -1,0 +1,118 @@
+inherited cadProdutosF: TcadProdutosF
+  Left = 549
+  Height = 567
+  Top = 174
+  Caption = 'Cadastro de produtos'
+  ClientHeight = 567
+  inherited PageControl1: TPageControl
+    Height = 567
+    inherited TabSheet1: TTabSheet
+      ClientHeight = 539
+      inherited Panel2: TPanel
+        Top = 479
+      end
+      inherited StringGrid1: TStringGrid
+        Height = 419
+      end
+    end
+    inherited TabSheet2: TTabSheet
+      ClientHeight = 539
+      ClientWidth = 762
+      object edtIdCadProduto: TEdit[0]
+        Left = 24
+        Height = 23
+        Top = 136
+        Width = 64
+        TabOrder = 0
+      end
+      object edtDescSimples: TEdit[1]
+        Left = 24
+        Height = 23
+        Top = 88
+        Width = 192
+        TabOrder = 1
+      end
+      object edtDescCompleta: TEdit[2]
+        Left = 24
+        Height = 23
+        Top = 40
+        Width = 224
+        TabOrder = 2
+      end
+      object edtValorVenda: TEdit[3]
+        Left = 24
+        Height = 23
+        Top = 184
+        Width = 80
+        TabOrder = 3
+      end
+      object cbTipoProduto: TComboBox[4]
+        Left = 96
+        Height = 23
+        Top = 136
+        Width = 100
+        ItemHeight = 15
+        ItemIndex = 0
+        Items.Strings = (
+          'Tipo item 1'
+          'Tipo item 2'
+          'Tipo item 3'
+        )
+        TabOrder = 4
+        Text = 'Tipo item 1'
+      end
+      object Label2: TLabel[5]
+        Left = 24
+        Height = 15
+        Top = 120
+        Width = 14
+        Caption = 'ID:'
+      end
+      object Label3: TLabel[6]
+        Left = 24
+        Height = 15
+        Top = 72
+        Width = 90
+        Caption = 'Descicao simples'
+      end
+      object Label4: TLabel[7]
+        Left = 24
+        Height = 15
+        Top = 24
+        Width = 104
+        Caption = 'Descricao completa'
+      end
+      object Label5: TLabel[8]
+        Left = 24
+        Height = 15
+        Top = 168
+        Width = 80
+        Caption = 'Valor da venda:'
+      end
+      object Label6: TLabel[9]
+        Left = 96
+        Height = 15
+        Top = 120
+        Width = 70
+        Caption = 'Tipo do item:'
+      end
+      object btnSalvarProdutos: TButton[10]
+        Left = 24
+        Height = 25
+        Top = 216
+        Width = 64
+        Caption = 'Salvar'
+        TabOrder = 5
+      end
+      object btnCancelar: TButton[11]
+        Left = 96
+        Height = 25
+        Top = 216
+        Width = 64
+        Caption = 'Cancelar'
+        TabOrder = 6
+        OnClick = btnCancelarClick
+      end
+    end
+  end
+end
